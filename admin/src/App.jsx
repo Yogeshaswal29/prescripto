@@ -14,7 +14,7 @@ import { Route, Routes } from "react-router-dom";
 import { DoctorContext } from "./context/DoctorContext.jsx";
 import DoctorDashboard from "./pages/Doctor/DoctorDashboard.jsx";
 import DoctorAppointments from "./pages/Doctor/DoctorAppointments.jsx";
-import DoctorProfile from "./pages/Doctor/doctorProfile.jsx";
+import DoctorProfile from "./pages/Doctor/DoctorProfile.jsx";
 
 const App = () => {
   const { aToken } = useContext(AdminContext);
